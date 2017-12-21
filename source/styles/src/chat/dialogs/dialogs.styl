@@ -1,0 +1,70 @@
+.dialog
+	background-color: rgba(66, 244, 244,0.6);
+	height: 100%;
+	display: grid;
+	grid-row-gap: 5px;
+	align-content: end;
+	padding: 0 5%;
+	.set
+		display: grid;
+		grid-template-columns: 15% ;
+		grid-column-gap: 5%;
+		width: 100%;
+		// float: right;
+		margin-top: 5px ;
+		// background-color: blue;
+		grid-template-areas: "users message";
+
+		&__users
+			padding: 5% 0 ;
+			
+			grid-area: users;
+			
+			/*width and height by JS*/
+		&__message
+			grid-area: message;
+			background-color: rgb(7, 91, 65);
+			border-radius: 3px;
+			width: auto;
+			text-align: center;
+			padding-top: 10px;
+			margin-right: 10%;
+
+			
+			
+	.get
+		display: grid;
+		grid-template-columns: auto 15%;
+		grid-column-gap: 5%;
+		width: 100%;
+		text-align: right;
+		padding: 0;
+		margin: 0;
+		// float: right;
+		// background-color: yellow;
+		
+		&__message
+			background-color: rgb(7, 91, 65);
+			border-radius: 3px;
+			width: auto;
+			text-align: center;
+			padding-top: 8px;
+			margin-left: 10%;
+	
+	form
+		width: 100%;
+		padding: 0;
+		input
+			text-align: center;
+			width: calc(100% - 60px);
+			height: 30px;
+			// opacity: 1;
+			// background-color: grey ;
+			color: white;
+		
+		button
+			margin-left: 15px;
+			// margin-top: -120px;
+			width: 30px;
+			height: 30px;;
+			border-radius: 2px;		
