@@ -5,7 +5,13 @@
   "main": "gulpfile.js",
   "dependencies": {
     "jquery": "^3.2.1",
-    "package.json": "^2.0.1"
+    "package.json": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "socket.io": "^2.0.3"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
